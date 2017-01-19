@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    display:block;
+    background-color: deepskyblue;
+}
+
+header, main, footer {
+    background-color:floralwhite;
+    
+}
+
+header, footer {
+    padding: 1.5em;
+    text-align: center;
+}
+
+header {
+    font-family: fantasy;
+    color: deepskyblue;
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 22px;
+    color: blueviolet;
+}
+
+h3 {
+    padding: 1.25em;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+img {
+    display: block;
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+    padding: 0.5em;
+}
+
+.title {
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Impact;
+    text-align: center;
+    color: deepskyblue;
+}
+
+figcaption {
+    font-family: sans-serif;
+    text-decoration: initial;
+    font-size: 12px;  
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+}
+
